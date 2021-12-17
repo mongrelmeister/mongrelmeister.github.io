@@ -1,0 +1,22 @@
+title: Ejemplo Jekyll
+email: your-email@example.com
+description: >-
+  Ejemplo de esqueleto de un sitio web creado con Jekyll 
+  para prácticas de alumnos utilizando Markdown, HTML,
+  JavaScript, CSS y otras tecnologías relacionadas
+baseurl: "/jekyl-skel"
+url: "https://iescamp-ceti-pps-2021.github.io"
+
+theme: minima
+#plugins:
+#  - jekyll-feed
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+
+markdown: kramdown
